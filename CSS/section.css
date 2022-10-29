@@ -1,0 +1,141 @@
+/* PRIMERA SECCION */
+
+section .primer-titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: #ad9046;
+    padding: 50px 0 30px 0;
+}
+
+section .categorias{
+    display: flex;
+    justify-content: center;
+}
+
+section .categorias .imagen{
+    cursor: pointer;
+}
+
+section .categorias .imagen p{
+    background-color: #ad9046;
+    text-align: center;
+    margin: 0 1px;
+}
+
+
+
+/* SEGUNDA SECCION */
+
+section .rosa{
+    background-color: rgb(245, 152, 151);
+    margin-top: 100px;
+}
+
+section .segundo-titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+    padding: 50px 0 30px 0;
+}
+
+section .contenedor1 img{
+    height: 500px;
+    width: 350px;
+}
+
+section .contenedor1{
+    display: flex;
+    justify-content: center;
+}
+
+section .contenedor1 .btn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ad9046;
+    margin: auto 0;
+    cursor: pointer;
+    color: white;
+}
+
+section .contenedor2{
+    border: 1px solid white;
+    margin: 0 10px;
+    text-align: center;
+    background-color: white;
+}
+
+section .contenedor2 div p{
+    padding: 10px 0;
+    color: #ad9046;
+}
+
+section .contenedor2 button{
+    border-radius: 20px;
+    border: 1px solid pink;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin: 15px 0;
+    color: pink;
+}
+
+
+/* PARTE REDES */
+
+section .red-social h3{
+    text-align: center;
+    color: white;
+    margin: 100px 0 30px 0;
+}
+
+section .red-social .img-ig{
+    display: flex;
+    justify-content: center;
+}
+
+section .red-social img{
+    height: 270px;
+    width: 270px;
+}
+
+
+
+/* SECCION CONTACTO */
+
+section .contacto{
+    text-align: center;
+}
+
+section .contacto h3{
+    padding: 50px 0 5px 0;
+    font-size: 30px;
+    color: #ad9046;
+}
+
+section .contacto p{
+    padding-bottom: 30px;
+}
+
+section .contacto .email input{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid pink;
+    font-size: 15px;
+}
+
+section .contacto .email input::placeholder{
+    color: pink;
+}
+
+section .contacto .email button{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: pink;
+    font-size: 15px;
+}

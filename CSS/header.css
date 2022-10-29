@@ -1,0 +1,107 @@
+header{
+    background-image: url(https://www.latelierdouceur.com.ar/wp-content/uploads/2022/10/F7A9094-1024x683.jpg);
+    padding: 50px 0px;
+    height: 900px;
+    width: 100%;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header:before{
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.1);
+}
+
+header .btn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ad9046;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+header .btn i{
+    padding: 0px;
+}
+
+
+/* PRIMERA PARTE */
+
+header .primera-parte{
+    display: flex;
+    justify-content: center;
+}
+
+header .primera-parte .logo{
+    padding: 0 500px 0 600px;
+    cursor: pointer;
+}
+
+
+/* SEGUNDA PARTE */
+
+header .segunda-parte{
+    padding-top: 40px;
+}
+
+header .segunda-parte ul{
+    display: flex;
+    justify-content: center;
+}
+
+header .segunda-parte ul li{
+    padding: 0 10px;
+}
+
+header .segunda-parte ul li a{
+    cursor: pointer;
+    color: white;
+}
+
+
+/* TERCERA PARTE */
+
+header .tercera-parte{
+    padding-top: 150px;
+}
+
+header .tercera-parte h1{
+    font-size: 60px;
+}
+
+header .tercera-parte h2{
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+header .tercera-parte p{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header .tercera-parte button{
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(240, 150, 165);
+    color: white;
+    cursor: pointer;
+}
+
+header .tercera-parte button:hover{
+    background-color: rgba(0,0,0,0.5);
+    transition: all 2s ease;
+}
