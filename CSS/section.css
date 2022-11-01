@@ -2,8 +2,8 @@
 
 section .primer-titulo{
     text-align: center;
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 30px;
+    font-weight: 300;
     color: #ad9046;
     padding: 50px 0 30px 0;
 }
@@ -11,16 +11,24 @@ section .primer-titulo{
 section .categorias{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 section .categorias .imagen{
     cursor: pointer;
+    background-color: #ad9046;
+    margin: 0 0px;
+}
+
+section .categorias .imagen img{
+    height: 350px;
+    width: 260px;
 }
 
 section .categorias .imagen p{
     background-color: #ad9046;
     text-align: center;
-    margin: 0 1px;
+    
 }
 
 
@@ -34,15 +42,17 @@ section .rosa{
 
 section .segundo-titulo{
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 100;
     color: white;
     padding: 50px 0 30px 0;
 }
 
 section .contenedor1 img{
-    height: 500px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section .contenedor1{
@@ -81,6 +91,7 @@ section .contenedor2 button{
     font-size: 12px;
     margin: 15px 0;
     color: pink;
+    cursor: pointer;
 }
 
 
@@ -95,6 +106,7 @@ section .red-social h3{
 section .red-social .img-ig{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 section .red-social img{
@@ -125,6 +137,7 @@ section .contacto .email input{
     padding: 10px;
     border: 1px solid pink;
     font-size: 15px;
+    width: 300px;
 }
 
 section .contacto .email input::placeholder{
@@ -138,4 +151,35 @@ section .contacto .email button{
     border: none;
     background-color: pink;
     font-size: 15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    /* SEGUNDA SECCION */
+
+    /* section .contenedor1 .imagen{
+        height: 200px;
+        width: 200px;
+    }
+
+    section .contenedor1 .imagen img{
+        height: 200px;
+        width: 221px;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+
+    /* SEGUNDA SECCION */
+
+    /* section .contenedor1 .imagen{
+        height: 100px;
+        width: 100px;
+    }
+
+    section .contenedor1 .imagen img{
+        height: 100px;
+        width: 100px;
+    } */
 }

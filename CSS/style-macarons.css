@@ -1,0 +1,50 @@
+header .container .tienda{
+    font-size: 60px; 
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+
+
+/* CATEGORIAS */
+
+section .container-tienda{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px; 
+}
+
+section .container-tienda .container-categorias{
+    width: 150px;
+    padding: 10px;
+}
+
+.container-categorias h2{
+    color: pink;
+    margin-bottom: 30px;
+}
+
+.container-categorias ul li{
+    margin-bottom: 20px;
+}
+
+.container-categorias ul li a{
+    color: black;
+}
+
+.container-categorias ul li a:hover{
+    color: pink;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    section .container-tienda .container-categorias{
+        display: none;
+    }
+
+    .contenedor-1{
+        flex-wrap: wrap;
+    }
+}
