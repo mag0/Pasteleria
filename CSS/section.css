@@ -38,6 +38,7 @@ section .categorias .imagen p{
 section .rosa{
     background-color: rgb(245, 152, 151);
     margin-top: 100px;
+    margin-right: 0;
 }
 
 section .segundo-titulo{
@@ -51,8 +52,6 @@ section .segundo-titulo{
 section .contenedor1 img{
     height: 350px;
     width: 300px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 section .contenedor1{
@@ -156,30 +155,22 @@ section .contacto .email button{
 
 @media screen and (max-width: 1024px) {
 
-    /* SEGUNDA SECCION */
-
-    /* section .contenedor1 .imagen{
-        height: 200px;
-        width: 200px;
-    }
-
-    section .contenedor1 .imagen img{
-        height: 200px;
-        width: 221px;
-    } */
+    
 }
 
 @media screen and (max-width: 768px) {
 
     /* SEGUNDA SECCION */
 
-    /* section .contenedor1 .imagen{
-        height: 100px;
-        width: 100px;
+    section .contenedor1{
+        flex-direction: column;
+    }
+
+    section .contenedor1 .btn{
+        display: none;
     }
 
     section .contenedor1 .imagen img{
-        height: 100px;
-        width: 100px;
-    } */
+        
+    } 
 }

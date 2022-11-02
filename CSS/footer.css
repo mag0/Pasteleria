@@ -8,18 +8,38 @@ footer{
     font-size: 15px;
 }
 
-footer div{
-    margin: auto 50px auto 100px;
-}
-
 footer ul{
     display: flex;
 }
 
 footer ul li{
-    padding: 0 14px;
+    padding: 0 5px;
 }
 
 footer ul li a{
     color: white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    footer ul{
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    footer ul li{
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    footer .logo-footer{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
 }
