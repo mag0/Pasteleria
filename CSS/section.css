@@ -30,7 +30,6 @@ section .categorias .imagen:hover{
 section .categorias .imagen img{
     height: 300px;
     width: 300px;
-    z-index: 10;
 }
 
 section .categorias .imagen p{
@@ -58,7 +57,7 @@ section .segundo-titulo{
 }
 
 section .contenedor1 img{
-    height: 350px;
+    height: 200px;
     width: 300px;
 }
 
