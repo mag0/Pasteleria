@@ -9,6 +9,7 @@ header{
 }
 
 
+
 /* PRIMERA PARTE */
 
 header .primera-parte{
@@ -18,6 +19,15 @@ header .primera-parte{
 
 header .primera-parte .logo{
     cursor: pointer;
+    font-size: 40px;
+}
+
+header .primera-parte .logo a{
+    color: white;
+}
+
+header .primera-parte .logo a h1:hover{
+    color: wheat;
 }
 
 
@@ -39,6 +49,10 @@ header .segunda-parte ul li{
 header .segunda-parte ul li a{
     cursor: pointer;
     color: white;
+}
+
+header .segunda-parte ul li a:hover{
+    color: wheat;
 }
 
 
@@ -72,8 +86,21 @@ header .submenu button{
 
 @media screen and (max-width: 768px) {
 
+    
+}
+
+@media screen and (max-width: 425px){
+
+    /* MENU */
+
     header{
-        background: pink;
+        background: rgb(245, 152, 151);
+        height: 550px;
+    }
+
+    header .primera-parte .logo{
+        cursor: pointer;
+        font-size: 20px;
     }
 
     header ul{
@@ -83,11 +110,6 @@ header .submenu button{
     header li{
         margin-bottom: 15px;
     }
-}
-
-@media screen and (max-width: 425px){
-
-    /* MENU */
 
     header .container .submenu button{
         display: block;

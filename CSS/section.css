@@ -17,18 +17,26 @@ section .categorias{
 section .categorias .imagen{
     cursor: pointer;
     background-color: #ad9046;
-    margin: 0 0px;
+}
+
+section .categorias .imagen a{
+    color: black;
+}
+
+section .categorias .imagen:hover{
+    transform: scale(1.1);
 }
 
 section .categorias .imagen img{
-    height: 350px;
-    width: 260px;
+    height: 300px;
+    width: 300px;
+    z-index: 10;
 }
 
 section .categorias .imagen p{
     background-color: #ad9046;
     text-align: center;
-    
+    font-weight: 600;
 }
 
 

@@ -7,9 +7,17 @@
     font-family: Lato, sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header i{
     padding: 50px 10px;
     font-size: 23px;
     color: white;
     cursor: pointer;
+}
+
+header i:hover{
+    color: wheat;
 }
